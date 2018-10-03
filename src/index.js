@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
+import { SiteThemeProvider } from '../src/contexts/SiteThemeContext';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <App />, 
+    <SiteThemeProvider>
+        <App />
+    </SiteThemeProvider>,
     document.getElementById('root')
 );
 
