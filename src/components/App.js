@@ -1,12 +1,8 @@
 import React from 'react';
 import styled, { keyframes, ThemeProvider } from 'styled-components';
-
 import logo from '../logo.svg';
-
 import { StyledHyperLink as SHL, Button } from '../components/Shared';
-
 import ThemeSelect from './ThemeSelect';
-
 import { SiteThemeContext } from '../contexts/SiteThemeContext';
 
 const AppWrapper = styled.div`
